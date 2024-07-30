@@ -29,6 +29,7 @@ const getProducts = asyncHandler(async (req, res) => {
 // @route   GET /api/products/:id
 // @access  Public
 const getProductById = asyncHandler(async (req, res) => {
+  // NOTE: checking for valid ObjectId to prevent CastError moved to separate
   const product = await Product.findById(req.params.id);
   if (product) {
     return res.json(product);

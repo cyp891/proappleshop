@@ -1,6 +1,7 @@
 import path from "path";
 import express from "express";
 import multer from "multer";
+
 const router = express.Router();
 
 const storage = multer.diskStorage({
@@ -27,19 +28,19 @@ function fileFilter(req, file, cb) {
   }
 }
 
-const upload = multer({storage, fileFilter})
-const uploadSingleImage = upload.single('image')
+const upload = multer({ storage, fileFilter });
+const uploadSingleImage = upload.single("image");
 
-router.post('/', (req, res) => {
-  uploadSingleImage(req, res, function(err) {
+router.post("/", (req, res) => {
+  uploadSingleImage(req, res, function (err) {
     if (err) {
       res.status(400).send({ message: err.message });
     }
-    res.status(200).send({ 
-      message: 'Uploading image successfully',
+    res.status(200).send({
+      message: "Uploading image successfully",
       image: `/${req.file.path}`,
-    })
-  })
-})
+    });
+  });
+});
 
 export default router;
