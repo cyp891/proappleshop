@@ -1,12 +1,12 @@
 const products = [
   {
     
-    name: 'Airpods Wireless Bluetooth Headphone',
-    image: '/images/airpods.jpg',
+    name: 'Roses & Berries Cake',
+    image: '/images/Screenshot_1.jpg',
     description:
-      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+      'Τούρτα από σοκολάτα γάλακτος στη βαση παντεσπάνι σοκολάτας με επικάλυψη frosting βουτυρόκρεμας και αποξηραμένα roses & rasberries! (20 ατόμων)',
     brand: 'Apple',
-    category: 'Electronics',
+    category: 'Special Cakes',
     price: 89.99,
     countInStock: 10,
     rating: 4.5,
@@ -14,51 +14,51 @@ const products = [
   },
   {
     
-    name: 'iPhone 11 Pro 256GB Memory',
-    image: '/images/phone.jpg',
+    name: 'Popcorn Caramel Drip Cake',
+    image: '/images/Screenshot_2.jpg',
     description:
-      'Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
+      'Τούρτα κέικ βανίλιας με ενδιάμεσες στρώσεις χειροποίητης sauce καραμέλας και frosting βουτυρόκρεμας με επικάλυψη popcorn, caramel drip & vanilla macaron (18-20 ατόμων).',
     brand: 'Apple',
-    category: 'Electronics',
-    price: 599.99,
+    category: 'Special Cake',
+    price: 85.50,
     countInStock: 7,
     rating: 4.0,
     numReviews: 8,
   },
   {
     
-    name: 'Cannon EOS 80D DSLR Camera',
-    image: '/images/camera.jpg',
+    name: '10 Ice Cream Cones σε διάφορες γεύσεις',
+    image: '/images/Screenshot_3.jpg',
     description:
-      'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
+      'Ένα δροσερό mix από ice cream cones στις πιο υπέροχες γεύσεις, Σοκολάτα γάλακτος και επικάλυψη σοκολάτα bitter, πραλίνα Giandujia, σοκολάτα bitter και βατόμουρο, μπισκότο oreo, Stracciatella, cheesecake, κρέμα με επικάλυψη σοκολάτα γάλακτος, βανίλια Μαδαγασκάρης, snickers με πραλίνα-καραμέλα-φιστίκι, Red Velvet, Φιστίκι Αιγίνης, Sorbet Φράουλα, Sorbet Μάνγκο και Sorbet Λεμόνι.',
     brand: 'Cannon',
-    category: 'Electronics',
-    price: 929.99,
+    category: 'ΠΑΓΩΤΑ',
+    price: 20.00,
     countInStock: 5,
     rating: 3,
     numReviews: 12,
   },
   {
     
-    name: 'Sony Playstation 4 Pro White Version',
-    image: '/images/playstation.jpg',
+    name: 'Ice Cream Shots Variety: 9 σφηνάκια παγωτού',
+    image: '/images/Screenshot_4.jpg',
     description:
-      'The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music',
+      'Μια επιλογή από ξεχωριστές και δροσερές γεύσεις για να απολαύσετε το καλοκαίρι! Vegan vanilla, vegan chocolate, sorbet mango, sorbet strawberry, bitter chocolate, cookies, stracciatella, vanilla & brownies, kaimaki-vyssino, pavlova και φιστίκι.',
     brand: 'Sony',
-    category: 'Electronics',
-    price: 399.99,
+    category: 'ΠΑΓΩΤΑ',
+    price: 30.99,
     countInStock: 11,
     rating: 5,
     numReviews: 12,
   },
   {
     
-    name: 'Logitech G-Series Gaming Mouse',
-    image: '/images/mouse.jpg',
+    name: 'Vegan Chocolate Cake Τούρτα 0% sugar',
+    image: '/images/Screenshot_5.jpg',
     description:
-      'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
+      'Vegan τούρτα από υψηλής ποιότητας σοκολάτα bitter, κρέμα καρύδας και βάση από vegan μπισκότο σοκολάτας και τριμμένο αρωματικό αμύγδαλο.The best vegan choice you can make!',
     brand: 'Logitech',
-    category: 'Electronics',
+    category: 'Signature Desserts',
     price: 49.99,
     countInStock: 7,
     rating: 3.5,
@@ -66,14 +66,90 @@ const products = [
   },
   {
     
-    name: 'Amazon Echo Dot 3rd Generation',
-    image: '/images/alexa.jpg',
-    description:
-      'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
+    name: 'Rosé by the Beach',
+    image: '/images/Screenshot_6.jpg',
+    description:'Μια Rosé πρόταση για τις καλοκαιρινές αποδράσεις. Ροζέ Προβηγκίας “Miraval” 0,75 l που γεννιέται στις ακτές της γαλλικής Προβηγκίας στο κάστρο των Angelina Jolie και Brad Pitt, οι οποίοι και το εμπνεύστηκαν. Αρωματικό κερί Good Eye Fresh με άρωμα λιβάνι, κόκκινο σταφύλι και νότες ελληνικών βοτάνων, φτιαγμένο από vegan και cruelty-free mineral wax',
     brand: 'Amazon',
-    category: 'Electronics',
-    price: 29.99,
-    countInStock: 0,
+    category: 'Dp and fresh',
+    price: 129.99,
+    countInStock: 20,
+    rating: 4,
+    numReviews: 12,
+  },
+  {
+    
+    name: 'Roses & Berries Cake',
+    image: '/images/Screenshot_7.jpg',
+    description:
+      'Τούρτα από σοκολάτα γάλακτος στη βαση παντεσπάνι σοκολάτας με επικάλυψη frosting βουτυρόκρεμας και αποξηραμένα roses & rasberries! (20 ατόμων)',
+    brand: 'Apple',
+    category: 'Special Cakes',
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 12,
+  },
+  {
+    
+    name: 'Popcorn Caramel Drip Cake',
+    image: '/images/Screenshot_1.jpg',
+    description:
+      'Τούρτα κέικ βανίλιας με ενδιάμεσες στρώσεις χειροποίητης sauce καραμέλας και frosting βουτυρόκρεμας με επικάλυψη popcorn, caramel drip & vanilla macaron (18-20 ατόμων).',
+    brand: 'Apple',
+    category: 'Special Cake',
+    price: 85.50,
+    countInStock: 7,
+    rating: 4.0,
+    numReviews: 8,
+  },
+  {
+    
+    name: '10 Ice Cream Cones σε διάφορες γεύσεις',
+    image: '/images/Screenshot_2.jpg',
+    description:
+      'Ένα δροσερό mix από ice cream cones στις πιο υπέροχες γεύσεις, Σοκολάτα γάλακτος και επικάλυψη σοκολάτα bitter, πραλίνα Giandujia, σοκολάτα bitter και βατόμουρο, μπισκότο oreo, Stracciatella, cheesecake, κρέμα με επικάλυψη σοκολάτα γάλακτος, βανίλια Μαδαγασκάρης, snickers με πραλίνα-καραμέλα-φιστίκι, Red Velvet, Φιστίκι Αιγίνης, Sorbet Φράουλα, Sorbet Μάνγκο και Sorbet Λεμόνι.',
+    brand: 'Cannon',
+    category: 'ΠΑΓΩΤΑ',
+    price: 20.00,
+    countInStock: 5,
+    rating: 3,
+    numReviews: 12,
+  },
+  {
+    
+    name: 'Ice Cream Shots Variety: 9 σφηνάκια παγωτού',
+    image: '/images/Screenshot_3.jpg',
+    description:
+      'Μια επιλογή από ξεχωριστές και δροσερές γεύσεις για να απολαύσετε το καλοκαίρι! Vegan vanilla, vegan chocolate, sorbet mango, sorbet strawberry, bitter chocolate, cookies, stracciatella, vanilla & brownies, kaimaki-vyssino, pavlova και φιστίκι.',
+    brand: 'Sony',
+    category: 'ΠΑΓΩΤΑ',
+    price: 30.99,
+    countInStock: 11,
+    rating: 5,
+    numReviews: 12,
+  },
+  {
+    
+    name: 'Vegan Chocolate Cake Τούρτα 0% sugar',
+    image: '/images/Screenshot_4.jpg',
+    description:
+      'Vegan τούρτα από υψηλής ποιότητας σοκολάτα bitter, κρέμα καρύδας και βάση από vegan μπισκότο σοκολάτας και τριμμένο αρωματικό αμύγδαλο.The best vegan choice you can make!',
+    brand: 'Logitech',
+    category: 'Signature Desserts',
+    price: 49.99,
+    countInStock: 7,
+    rating: 3.5,
+    numReviews: 10,
+  },
+  {
+    
+    name: 'Rosé by the Beach',
+    image: '/images/Screenshot_5.jpg',
+    description:'Μια Rosé πρόταση για τις καλοκαιρινές αποδράσεις. Ροζέ Προβηγκίας “Miraval” 0,75 l που γεννιέται στις ακτές της γαλλικής Προβηγκίας στο κάστρο των Angelina Jolie και Brad Pitt, οι οποίοι και το εμπνεύστηκαν. Αρωματικό κερί Good Eye Fresh με άρωμα λιβάνι, κόκκινο σταφύλι και νότες ελληνικών βοτάνων, φτιαγμένο από vegan και cruelty-free mineral wax',
+    brand: 'Amazon',
+    category: 'Dp and fresh',
+    price: 129.99,
+    countInStock: 20,
     rating: 4,
     numReviews: 12,
   },
